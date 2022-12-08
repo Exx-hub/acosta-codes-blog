@@ -2,6 +2,7 @@ import Socials from "./Socials";
 import { FaChevronCircleDown } from "react-icons/fa";
 
 import styles from "../styles/Main.module.css";
+import Link from "next/link";
 
 function Main() {
   return (
@@ -14,7 +15,7 @@ function Main() {
         </p>
         <p className={styles.plugin}>
           Welcome to my Blog! You can also view my Portfolio{" "}
-          <a href="/">here</a>.
+          <Link href={"/"}>here</Link>.
         </p>
         <Socials />
       </section>
