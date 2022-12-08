@@ -21,3 +21,7 @@
 [data-theme="light"] .icon {
   color: #333;
 }
+
+[data-theme="light"] .icon:hover {
+  color: #e0642f;
+}
