@@ -1,0 +1,88 @@
+.mainContainer {
+  height: calc(100vh - 87.1875px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.mainContent {
+  text-align: center;
+  transform: translateY(-40px);
+}
+
+.mainContent h1 {
+  font-size: 1.8rem;
+  padding: 5px;
+  color: #f0f0f0;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+[data-theme="light"] .mainContent h1 {
+  color: black;
+}
+
+.mainContent p {
+  font-size: 1rem;
+  color: darkgray;
+}
+
+[data-theme="light"] .mainContent p {
+  color: rgb(108, 108, 108);
+  font-weight: bold;
+}
+
+.mainContent span {
+  color: #e0642f;
+  /* color: white; */
+}
+
+.plugin {
+  font-size: 0.9rem !important;
+  color: white !important;
+}
+
+[data-theme="light"] .plugin {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+.plugin a {
+  text-decoration: underline;
+  color: darkgray !important;
+}
+
+.downIcon {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.downIcon:hover {
+  color: #e0642f;
+}
+
+@media screen and (min-width: 768px) {
+  .mainContent h1 {
+    font-size: 4vw;
+  }
+
+  .mainContent p {
+    font-size: 1.1rem;
+  }
+
+  .plugin {
+    font-size: 0.85rem !important;
+  }
+
+  .downIcon {
+    font-size: 2.2rem;
+
+    bottom: 3.5rem;
+  }
+}

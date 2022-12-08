@@ -8,6 +8,7 @@
 
 .header p {
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .header span {
@@ -22,7 +23,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  bottom: 28px;
+  bottom: 15px;
   left: 15px;
   background-color: black;
   transform: translateY(100%);
@@ -53,7 +54,7 @@
   }
 
   .header p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .header span {
@@ -70,14 +71,25 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    /* font-size: 1.2rem; */
+    font-size: 0.9rem;
+  }
+
+  .nav a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .nav a:hover {
+    color: #e0642f;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header {
     max-width: 80%;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
   }
 }
 

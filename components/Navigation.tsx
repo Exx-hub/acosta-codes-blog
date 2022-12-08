@@ -5,7 +5,7 @@ import styles from "../styles/Navigation.module.css";
 import ThemeChanger from "./ThemeChanger";
 
 function Navigation() {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className={styles.header}>
       <div style={{ display: "flex", alignItems: "center" }}>

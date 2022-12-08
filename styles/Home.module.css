@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+}
+
+[data-theme="dark"] .container {
+  background-color: black;
+}
+
+[data-theme="light"] .container {
+  background-color: white;
+}
