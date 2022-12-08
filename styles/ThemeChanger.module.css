@@ -1,0 +1,10 @@
+.themeIcon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 1px black);
+  transform: translateY(1px);
+}
+
+[data-theme="light"] .themeIcon {
+  color: #f7b217;
+}

@@ -15,6 +15,36 @@ a {
   box-sizing: border-box;
 }
 
+/* FIREFOX EXPLICIT THEMES  */
+/* @-moz-document url-prefix() {
+  [data-theme="dark"] body {
+    background-color: rgb(19, 19, 19);
+  }
+  [data-theme="dark"] h1,
+  [data-theme="dark"] h2,
+  [data-theme="dark"] h3,
+  [data-theme="dark"] h4,
+  [data-theme="dark"] h5,
+  [data-theme="dark"] h6,
+  [data-theme="dark"] p,
+  [data-theme="dark"] a,
+  [data-theme="dark"] .themeIcon {
+    color: white;
+  }
+  * {
+    scrollbar-width: none;
+  }
+} */
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
