@@ -4,6 +4,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  background-color: red;
+}
+
+[data-theme="dark"] .header {
+  background-color: #121212;
+}
+
+[data-theme="light"] .header {
+  background-color: #fff;
 }
 
 .header p {
@@ -12,11 +21,11 @@
 }
 
 [data-theme="light"] .header p {
-  color: black;
+  color: black !important;
 }
 
 [data-theme="dark"] .header p {
-  color: white;
+  color: white !important;
 }
 
 .header span {
@@ -57,11 +66,11 @@
 }
 
 [data-theme="light"] .menuToggle {
-  color: black;
+  color: black !important;
 }
 
 [data-theme="dark"] .menuToggle {
-  color: white;
+  color: white !important;
 }
 
 @media screen and (min-width: 768px) {
