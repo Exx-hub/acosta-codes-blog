@@ -7,6 +7,14 @@
   padding: 1rem;
 }
 
+[data-theme="dark"] .mainContainer {
+  background-color: #121212;
+}
+
+[data-theme="light"] .container {
+  background-color: #fff;
+}
+
 .mainContent {
   text-align: center;
   transform: translateY(-40px);

@@ -3,6 +3,14 @@
   padding: 2rem;
 }
 
+[data-theme="dark"] .blogListContainer {
+  background-color: #121212;
+}
+
+[data-theme="light"] .blogListContainer {
+  background-color: #fff;
+}
+
 .blogListHeader {
   margin-top: 0rem;
   margin-bottom: 2rem;

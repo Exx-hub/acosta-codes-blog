@@ -1,6 +1,7 @@
 import styles from "../styles/BlogList.module.css";
 import { Blog } from "../types/interfaces";
 import BlogItem from "./BlogItem";
+import ThemeChanger from "./ThemeChanger";
 
 function BlogList({ blogs }: { blogs: Blog[] }) {
   return (
@@ -8,6 +9,7 @@ function BlogList({ blogs }: { blogs: Blog[] }) {
       <section className={styles.blogListHeader}>
         <h3>Personal Blog</h3>
         <p>Sharing info with words and code.</p>
+        <ThemeChanger />
       </section>
       <section>
         {blogs.map((blog) => (
