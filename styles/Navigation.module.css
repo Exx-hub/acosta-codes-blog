@@ -36,6 +36,7 @@
   background-color: black;
   transform: translateY(100%);
   border: 1px solid lightgray;
+  z-index: 1000;
 }
 
 .mobileNav a {
