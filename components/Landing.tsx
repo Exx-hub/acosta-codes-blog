@@ -22,10 +22,7 @@ function Landing() {
           </span>
           ..freelance <span>Full Stack Developer</span>.
         </p>
-        <p className={styles.plugin}>
-          Welcome to my Blog! You can also view my Portfolio{" "}
-          <Link href={"/"}>here</Link>.
-        </p>
+
         <Socials isFooter={false} />
       </section>
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   FaGithub,
   FaFacebookF,
@@ -14,21 +15,34 @@ interface SocialsProps {
 function Socials({ isFooter }: SocialsProps) {
   return (
     <section className={styles.icons}>
-      <FaFacebookF
-        className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
-      />
-      <FaLinkedinIn
-        className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
-      />
-      <FaGithub
-        className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
-      />
-      <FaGitlab
-        className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
-      />
-      <FaLaptopCode
-        className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
-      />
+      <Link href="https://www.facebook.com/alvinfloresacosta" target="_blank">
+        <FaFacebookF
+          className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
+        />
+      </Link>
+      <Link href="https://www.linkedin.com/in/alvin-acosta/" target="_blank">
+        <FaLinkedinIn
+          className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
+        />
+      </Link>
+      <Link href="https://github.com/Exx-hub" target="_blank">
+        <FaGithub
+          className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
+        />
+      </Link>
+      <Link href="https://gitlab.com/Exx-hub" target="_blank">
+        <FaGitlab
+          className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
+        />
+      </Link>
+      <Link
+        href="https://www.codegrepper.com/profile/alvin-acosta"
+        target="_blank"
+      >
+        <FaLaptopCode
+          className={!isFooter ? `${styles.icon}` : `${styles.footerIcon}`}
+        />
+      </Link>
     </section>
   );
 }

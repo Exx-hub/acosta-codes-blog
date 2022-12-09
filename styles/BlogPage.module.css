@@ -1,0 +1,95 @@
+.blogPageContainer {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 1rem;
+}
+
+[data-theme="dark"] .blogPageContainer {
+  background-color: #282c35;
+  background-color: #121212;
+}
+
+[data-theme="light"] .blogPageContainer {
+  background-color: white;
+  background-color: #fff;
+}
+
+.blogPageHeader {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+[data-theme="light"] .title,
+[data-theme="light"] .caption,
+[data-theme="light"] .blogPageContent li,
+[data-theme="light"] .blogPageContent h2,
+[data-theme="light"] .blogPageContent p {
+  color: black;
+}
+
+[data-theme="dark"] .title,
+[data-theme="dark"] .caption,
+[data-theme="dark"] .blogPageContent li,
+[data-theme="dark"] .blogPageContent h2,
+[data-theme="dark"] .blogPageContent p {
+  color: white;
+}
+
+.blogPageHeader .date {
+  color: rgb(106, 105, 105);
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.blogPageContent li {
+  list-style-position: inside;
+}
+
+.blogPageContent h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.blogPageContent pre {
+  width: 100%;
+}
+
+.blogPageContent code {
+  font-size: 0.8rem !important;
+}
+
+.blogPageContent a {
+  color: #e0642f;
+}
+
+.blogPageContent p > img {
+  width: 100%;
+  max-height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .blogPageContainer {
+    padding: 1rem;
+  }
+  .blogPageHeader {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .blogPageContent code {
+    font-size: 1rem !important;
+  }
+
+  .blogPageContent p > img {
+    width: 100%;
+    max-height: none;
+  }
+}

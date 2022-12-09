@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <Socials isFooter={true} />
-      <h4>Alvin Flores Acosta · Copyright © 2021</h4>
+      <h4>Alvin Flores Acosta · Copyright © 2022</h4>
       <Link href="#">back to top</Link>
     </footer>
   );

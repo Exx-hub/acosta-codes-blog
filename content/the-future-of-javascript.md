@@ -20,7 +20,7 @@ export type GreetProps = {
 ```
 
 ```jsx
-function Greet({ name, messageCount = 0, isEnrolled, isLoggedIn }: GreetProps) {
+function Greet({ name, messageCount, isEnrolled, isLoggedIn }: GreetProps) {
   return (
     <div>
       {isLoggedIn ? (
