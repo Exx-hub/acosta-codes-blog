@@ -59,12 +59,20 @@
 .downIcon {
   font-size: 1.5rem;
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 3rem;
   cursor: pointer;
 }
 
 .downIcon:hover {
   color: #e0642f;
+}
+
+[data-theme="light"] .downIcon {
+  color: black;
+}
+
+[data-theme="dark"] .downIcon {
+  color: white;
 }
 
 @media screen and (min-width: 768px) {

@@ -11,6 +11,7 @@
   color: darkgray;
   cursor: pointer;
   transition: transform 300ms ease-out;
+  margin: 0 5px;
 }
 
 .icon:hover {
