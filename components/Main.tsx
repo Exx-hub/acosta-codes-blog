@@ -3,6 +3,7 @@ import { FaChevronCircleDown } from "react-icons/fa";
 
 import styles from "../styles/Main.module.css";
 import Link from "next/link";
+import Typed from "react-typed";
 
 function Main() {
   return (
@@ -10,7 +11,16 @@ function Main() {
       <section className={styles.mainContent}>
         <h1>ALVIN ACOSTA</h1>
         <p>
-          I am a Manila-based full-time <span>ReactJs Developer</span>
+          I am a Manila-based full-time{" "}
+          <span>
+            <Typed
+              strings={["ReactJs Developer"]}
+              loop
+              typeSpeed={100}
+              backSpeed={180}
+            />
+            ReactJs Developer
+          </span>
           .. freelance <span>Full Stack Developer</span>.
         </p>
         <p className={styles.plugin}>
