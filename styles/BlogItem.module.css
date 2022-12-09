@@ -37,6 +37,16 @@
   margin-bottom: 0.5rem;
 }
 
+[data-theme="dark"] .title,
+[data-theme="dark"] .caption {
+  color: white;
+}
+
+[data-theme="light"] .title,
+[data-theme="light"] .caption {
+  color: black;
+}
+
 .title:hover,
 .more:hover {
   color: #e0642f;

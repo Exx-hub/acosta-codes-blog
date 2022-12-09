@@ -8,13 +8,23 @@
   font-weight: normal;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  color: darkgray;
 }
 
 .footer a {
   font-size: 0.65rem;
   text-decoration: underline;
+  color: darkgray;
 }
 
 .footer a:hover {
   color: #e0642f;
+}
+
+[data-theme="dark"] .footer {
+  background-color: #121212;
+}
+
+[data-theme="light"] .footer {
+  background-color: #fff;
 }

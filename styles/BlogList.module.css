@@ -17,6 +17,14 @@
   text-align: center;
 }
 
+[data-theme="light"] .blogListHeader h3 {
+  color: black;
+}
+
+[data-theme="dark"] .blogListHeader h3 {
+  color: white;
+}
+
 .blogListHeader p {
   color: gray;
 }
