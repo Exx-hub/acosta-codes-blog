@@ -1,0 +1,25 @@
+.blogListContainer {
+  height: auto;
+  padding: 2rem;
+}
+
+.blogListHeader {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.blogListHeader p {
+  color: gray;
+}
+
+@media screen and (min-width: 768px) {
+  .blogListContainer {
+    padding: 2rem;
+  }
+
+  .blogListHeader {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+}

@@ -1,9 +1,16 @@
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
-import Main from "../components/Main";
+import Landing from "../components/Landing";
 import styles from "../styles/Home.module.css";
+import BlogList from "../components/BlogList";
+import { getAllBlogs, getFiles } from "../helpers/post-utils";
+import { Blog } from "../types/interfaces";
 
-export default function Home() {
+interface HomeProps {
+  blogs: Blog[];
+}
+
+export default function Home({ blogs }: HomeProps) {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,8 +20,20 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <Main />
+        <Landing />
+        <BlogList blogs={blogs} />
       </Layout>
     </div>
   );
 }
+
+export const getStaticProps = () => {
+  const blogs = getAllBlogs();
+  // console.log(blogs);
+
+  return {
+    props: {
+      blogs,
+    },
+  };
+};

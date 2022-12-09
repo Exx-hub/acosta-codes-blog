@@ -14,15 +14,25 @@
   margin: 0 5px;
 }
 
-.icon:hover {
+.icon:hover,
+.footerIcon:hover {
   color: #e0642f;
   transform: scale(1.25);
 }
 
-[data-theme="light"] .icon {
+[data-theme="light"] .icon,
+[data-theme="light"] .footerIcon {
   color: #333;
 }
 
-[data-theme="light"] .icon:hover {
+[data-theme="light"] .icon:hover,
+[data-theme="light"] .footerIcon:hover {
   color: #e0642f;
+}
+
+.footerIcon {
+  font-size: 1rem;
+  color: darkgray;
+  cursor: pointer;
+  transition: transform 300ms ease-out;
 }

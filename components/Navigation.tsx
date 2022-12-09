@@ -21,7 +21,7 @@ function Navigation() {
       </div>
 
       <nav className={styles.nav}>
-        <Link href={"/blog"}>Blog</Link>
+        <Link href={"#blog"}>Blog</Link>
         <Link href={""}>Portfolio</Link>
         <Link href={""}>Buy Me A Coffee</Link>
         <ThemeChanger />

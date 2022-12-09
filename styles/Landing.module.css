@@ -38,7 +38,6 @@
 
 .mainContent span {
   color: #e0642f;
-  /* color: white; */
 }
 
 .plugin {
@@ -53,7 +52,11 @@
 
 .plugin a {
   text-decoration: underline;
-  color: darkgray !important;
+  color: darkgray;
+}
+
+.plugin a:hover {
+  color: #e0642f;
 }
 
 .downIcon {
@@ -73,6 +76,11 @@
 
 [data-theme="dark"] .downIcon {
   color: white;
+}
+
+[data-theme="light"] .downIcon:hover,
+[data-theme="dark"] .downIcon:hover {
+  color: #e0642f;
 }
 
 @media screen and (min-width: 768px) {

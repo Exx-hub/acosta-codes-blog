@@ -1,0 +1,20 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer h4 {
+  font-size: 0.7rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  font-size: 0.65rem;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #e0642f;
+}

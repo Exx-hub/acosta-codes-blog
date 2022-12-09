@@ -3,9 +3,11 @@
 }
 
 [data-theme="dark"] .container {
-  background-color: black;
+  background-color: #282c35;
+  background-color: #121212;
 }
 
 [data-theme="light"] .container {
   background-color: white;
+  background-color: #fff;
 }

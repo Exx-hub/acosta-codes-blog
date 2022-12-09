@@ -1,11 +1,11 @@
 import Socials from "./Socials";
 import { FaChevronCircleDown } from "react-icons/fa";
 
-import styles from "../styles/Main.module.css";
+import styles from "../styles/Landing.module.css";
 import Link from "next/link";
 import Typed from "react-typed";
 
-function Main() {
+function Landing() {
   return (
     <section className={styles.mainContainer}>
       <section className={styles.mainContent}>
@@ -26,13 +26,14 @@ function Main() {
           Welcome to my Blog! You can also view my Portfolio{" "}
           <Link href={"/"}>here</Link>.
         </p>
-        <Socials />
+        <Socials isFooter={false} />
       </section>
-      <section className={styles.downIcon}>
+
+      <Link href={"#blog"} className={styles.downIcon}>
         <FaChevronCircleDown />
-      </section>
+      </Link>
     </section>
   );
 }
 
-export default Main;
+export default Landing;
