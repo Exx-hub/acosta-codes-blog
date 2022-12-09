@@ -6,12 +6,10 @@
 }
 
 [data-theme="dark"] .blogPageContainer {
-  background-color: #282c35;
   background-color: #121212;
 }
 
 [data-theme="light"] .blogPageContainer {
-  background-color: white;
   background-color: #fff;
 }
 

@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  background-color: red;
 }
 
 [data-theme="dark"] .header {
