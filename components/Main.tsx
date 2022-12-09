@@ -19,9 +19,8 @@ function Main() {
               typeSpeed={100}
               backSpeed={180}
             />
-            ReactJs Developer
           </span>
-          .. freelance <span>Full Stack Developer</span>.
+          ..freelance <span>Full Stack Developer</span>.
         </p>
         <p className={styles.plugin}>
           Welcome to my Blog! You can also view my Portfolio{" "}

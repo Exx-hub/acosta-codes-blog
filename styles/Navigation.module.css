@@ -11,6 +11,14 @@
   font-weight: bold;
 }
 
+[data-theme="light"] .header p {
+  color: black;
+}
+
+[data-theme="dark"] .header p {
+  color: white;
+}
+
 .header span {
   color: #e0642f;
 }
@@ -45,6 +53,14 @@
 .themeSwitch,
 .menuToggle {
   cursor: pointer;
+}
+
+[data-theme="light"] .menuToggle {
+  color: black;
+}
+
+[data-theme="dark"] .menuToggle {
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
