@@ -1,15 +1,16 @@
 import styles from "../styles/BlogList.module.css";
 import { Blog } from "../types/interfaces";
 import BlogItem from "./BlogItem";
-import ThemeChanger from "./ThemeChanger";
+import PageHeader from "./PageHeader";
 
 function BlogList({ blogs }: { blogs: Blog[] }) {
   return (
-    <section id="blog" className={styles.blogListContainer}>
+    <section className={styles.blogListContainer}>
       <section className={styles.blogListHeader}>
-        <h3>Personal Blog</h3>
-        <p>Sharing info with words and code.</p>
-        <ThemeChanger />
+        <PageHeader
+          title="Personal Blog"
+          subtitle="Sharing info with words and code."
+        />
       </section>
       <section>
         {blogs.map((blog) => (
@@ -23,7 +24,6 @@ function BlogList({ blogs }: { blogs: Blog[] }) {
           />
         ))}
       </section>
-      {/* <a href="#">Back to top</a> */}
     </section>
   );
 }

@@ -1,0 +1,11 @@
+[data-theme="light"] .pageTitle {
+  color: black;
+}
+
+[data-theme="dark"] .pageTitle {
+  color: white;
+}
+
+.pageSubtitle {
+  color: gray;
+}
