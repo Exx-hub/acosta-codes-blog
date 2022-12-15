@@ -17,7 +17,7 @@ function Landing() {
         <Socials isFooter={false} />
       </section>
 
-      <Link href={"#blog"} className={styles.downIcon}>
+      <Link href={"#about"} className={styles.downIcon}>
         <FaChevronCircleDown />
       </Link>
     </section>

@@ -45,21 +45,17 @@ function BlogPage({ blog }: { blog: Blog }) {
     },
   };
   return (
-    <Layout>
-      <article className={styles.blogPageContainer}>
-        <section className={styles.blogPageHeader}>
-          <h1 className={styles.title}>{blog.title}</h1>
-          <p className={styles.caption}>{blog.caption}</p>
-          <p className={styles.date}>{convertedDate}</p>
-          <hr />
-        </section>
-        <section className={styles.blogPageContent}>
-          <ReactMarkdown components={customRenders}>
-            {blog.content}
-          </ReactMarkdown>
-        </section>
-      </article>
-    </Layout>
+    <article className={styles.blogPageContainer}>
+      <section className={styles.blogPageHeader}>
+        <h1 className={styles.title}>{blog.title}</h1>
+        <p className={styles.caption}>{blog.caption}</p>
+        <p className={styles.date}>{convertedDate}</p>
+        <hr />
+      </section>
+      <section className={styles.blogPageContent}>
+        <ReactMarkdown components={customRenders}>{blog.content}</ReactMarkdown>
+      </section>
+    </article>
   );
 }
 

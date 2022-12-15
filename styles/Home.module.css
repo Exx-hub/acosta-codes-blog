@@ -1,11 +1,11 @@
-.container {
-  height: 100vh;
+.homeContainer {
+  height: auto;
 }
 
-[data-theme="dark"] .container {
+[data-theme="dark"] .homeContainer {
   background-color: #121212;
 }
 
-[data-theme="light"] .container {
+[data-theme="light"] .homeContainer {
   background-color: #fff;
 }

@@ -1,0 +1,30 @@
+.skillCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  color: #e0642f;
+  font-size: 1.4rem;
+}
+.skillDetails h3 {
+  font-size: 1.2rem;
+}
+
+.skillDetails p {
+  font-size: 0.85rem;
+}
+
+[data-theme="light"] .skillDetails h3,
+[data-theme="light"] .skillDetails p {
+  color: black;
+}
+
+[data-theme="dark"] .skillDetails h3,
+[data-theme="dark"] .skillDetails p {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+}

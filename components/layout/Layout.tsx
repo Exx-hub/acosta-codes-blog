@@ -1,4 +1,3 @@
-import React from "react";
 import Navigation from "../Navigation";
 import styles from "../../styles/Layout.module.css";
 import Footer from "../Footer";
@@ -9,11 +8,11 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   return (
-    <section>
+    <>
       <Navigation />
       <main className={styles.main}>{children}</main>
       <Footer />
-    </section>
+    </>
   );
 }
 
