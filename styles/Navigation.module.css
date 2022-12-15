@@ -95,7 +95,7 @@
   .nav {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     font-size: 0.9rem;
   }
 
@@ -104,6 +104,7 @@
     font-weight: 600;
     cursor: pointer;
     text-transform: uppercase;
+    margin: 0 0.75rem;
   }
 
   .nav a:hover {

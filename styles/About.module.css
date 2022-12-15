@@ -9,13 +9,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  /* gap: 4rem; */
   margin-bottom: 2rem;
   margin-top: 3rem;
 }
 
 .imageSection h3 {
   font-size: 1.2rem;
+  margin-right: 2rem;
 }
 
 [data-theme="light"] .imageSection h3 {
@@ -32,6 +33,7 @@
 
 .img {
   border-radius: 9999px;
+  margin-left: 2rem;
 }
 
 .title {
@@ -67,7 +69,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 .btn {
   display: flex;
@@ -81,6 +83,7 @@
   color: #333;
   font-weight: bold;
   font-size: 0.9rem;
+  margin: 0 1rem;
 }
 
 [data-theme="light"] .btn {

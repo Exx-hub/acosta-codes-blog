@@ -3,6 +3,7 @@
   cursor: pointer;
   filter: drop-shadow(1px 1px 1px black);
   transform: translateY(1px);
+  margin-left: 0.75rem;
 }
 
 [data-theme="light"] .themeIcon {

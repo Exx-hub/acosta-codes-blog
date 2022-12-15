@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.6rem;
+  /* gap: 1.6rem; */
   margin-top: 1rem;
 }
 
@@ -11,7 +11,7 @@
   color: darkgray;
   cursor: pointer;
   transition: transform 300ms ease-out;
-  margin: 0 5px;
+  margin: 0 0.8rem;
 }
 
 .icon:hover,
@@ -35,5 +35,5 @@
   color: darkgray;
   cursor: pointer;
   transition: transform 300ms ease-out;
-  margin: 0 1px;
+  margin: 0 0.4rem;
 }
