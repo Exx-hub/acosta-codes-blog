@@ -59,8 +59,12 @@
   display: none;
 }
 
-.themeSwitch,
 .menuToggle {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.themeSwitch {
   cursor: pointer;
 }
 

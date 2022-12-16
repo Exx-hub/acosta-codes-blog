@@ -1,0 +1,31 @@
+.projectCard {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.projectButtons {
+  display: flex;
+  justify-content: center;
+}
+.projectButtons a {
+  margin: 2px 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.projectButtonsSpan {
+  font-size: 0.7rem;
+  color: gray;
+  margin-left: 3px;
+}
+
+[data-theme="dark"] .projectCard > h4,
+[data-theme="dark"] .projectIcon {
+  color: white;
+}
+
+[data-theme="light"] .projectCard > h4,
+[data-theme="light"] .projectIcon {
+  color: black;
+}

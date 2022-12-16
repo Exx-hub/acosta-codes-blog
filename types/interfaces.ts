@@ -8,4 +8,12 @@ export interface Blog {
   slug: string;
 }
 
+export interface Project {
+  image: string;
+  title: string;
+  live: string;
+  srcCode: string;
+  id: number;
+}
+
 export type FixMeLater = any;
