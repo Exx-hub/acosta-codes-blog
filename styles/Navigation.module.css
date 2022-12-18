@@ -111,6 +111,14 @@
     margin: 0 0.75rem;
   }
 
+  [data-theme="light"] .nav a {
+    color: black;
+  }
+
+  [data-theme="dark"] .nav a {
+    color: white;
+  }
+
   .nav a:hover {
     color: #e0642f;
   }
