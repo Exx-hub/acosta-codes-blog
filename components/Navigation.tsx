@@ -34,6 +34,7 @@ function Navigation() {
         className={
           menuOpen ? styles.mobileNav : `${styles.mobileNav} ${styles.hidden}`
         }
+        onClick={() => setMenuOpen((prev) => !prev)}
       >
         <Link href="/works">Works</Link>
         <Link href="/dev">Dev</Link>
