@@ -91,3 +91,106 @@ export const topPicks = [
     id: 6,
   },
 ];
+
+export const languages = [
+  {
+    title: "HTML",
+    image: "/langImages/html.png",
+  },
+  {
+    title: "CSS",
+    image: "/langImages/css.png",
+  },
+  {
+    title: "Javascript",
+    image: "/langImages/js.png",
+  },
+  {
+    title: "Typescript",
+    image: "/langImages/ts.png",
+  },
+  {
+    title: "ReactJs",
+    image: "/langImages/react.png",
+  },
+  {
+    title: "NextJs",
+    image: "/langImages/next.png",
+  },
+  {
+    title: "NodeJs",
+    image: "/langImages/node.png",
+  },
+  {
+    title: "MongoDb",
+    image: "/langImages/mongo.png",
+  },
+  {
+    title: "ExpressJs",
+    image: "/langImages/express.png",
+  },
+  {
+    title: "React Native",
+    image: "/langImages/rn.png",
+  },
+  {
+    title: "Redux",
+    image: "/langImages/redux.png",
+  },
+  {
+    title: "TailwindCss",
+    image: "/langImages/twcss.png",
+  },
+  {
+    title: "Bootstrap",
+    image: "/langImages/bootstrap.png",
+  },
+  {
+    title: "Sass",
+    image: "/langImages/sass.png",
+  },
+  {
+    title: "Material-Ui",
+    image: "/langImages/matui.png",
+  },
+];
+
+export const tools = [
+  {
+    title: "Git",
+    image: "/toolsImages/git.png",
+  },
+  {
+    title: "VsCode",
+    image: "/toolsImages/vscode.png",
+  },
+  {
+    title: "Testing Library",
+    image: "/toolsImages/rtl.png",
+  },
+  {
+    title: "Jest",
+    image: "/toolsImages/jest.png",
+  },
+  {
+    title: "Dev Tools",
+    image: "/toolsImages/devtools.png",
+  },
+  {
+    title: "Figma",
+    image: "/toolsImages/figma.png",
+  },
+  {
+    title: "Canva",
+    image: "/toolsImages/canva.png",
+  },
+
+  {
+    title: "Git Bash",
+    image: "/toolsImages/bash.png",
+  },
+  {
+    title: "Postman",
+    image: "/toolsImages/post.png",
+  },
+];

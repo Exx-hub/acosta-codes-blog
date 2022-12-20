@@ -45,6 +45,7 @@
   transform: translateY(100%);
   border: 1px solid lightgray;
   z-index: 1000;
+  min-width: 110px;
 }
 
 .mobileNav a {

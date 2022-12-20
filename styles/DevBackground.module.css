@@ -1,0 +1,126 @@
+.devContainer {
+  height: auto;
+  padding: 2rem;
+}
+.devHeader {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.devContentGrid {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+}
+
+.gridSection h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.educationDiv h5 {
+  font-size: 1rem;
+}
+
+.educationDiv p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.experienceSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceSection h6 {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.ctaDiv a {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  background-color: #e0642f;
+  width: 140px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 20px;
+  color: black;
+}
+
+.cta {
+  color: lightgray;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.ctaDiv a:hover {
+  color: white;
+}
+
+.techGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.techItem {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.techItem p {
+  margin-left: 0.2rem;
+}
+
+[data-theme="dark"] .devContainer {
+  background-color: #121212;
+}
+
+[data-theme="light"] .devContainer {
+  background-color: #fff;
+}
+
+[data-theme="dark"] .gridSection h4,
+[data-theme="dark"] .educationDiv h5,
+[data-theme="dark"] .educationDiv p,
+[data-theme="dark"] .experienceSection h6,
+[data-theme="dark"] .techItem p {
+  color: #fff;
+}
+
+[data-theme="light"] .gridSection h4,
+[data-theme="light"] .educationDiv h5,
+[data-theme="light"] .educationDiv p,
+[data-theme="light"] .experienceSection h6,
+[data-theme="light"] .techItem p {
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .devContentGrid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 1rem; */
+  }
+
+  .gridSection {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+
+  .experienceSection {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .techGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

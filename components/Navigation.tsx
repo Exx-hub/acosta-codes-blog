@@ -21,11 +21,12 @@ function Navigation() {
       </div>
 
       <nav className={styles.nav}>
-        <Link href="/blog">Blog</Link>
         <Link href="/works">Works</Link>
-        <Link href={"https://www.buymeacoffee.com/exxhub"} target="_blank">
+        <Link href="/dev">Dev</Link>
+        <Link href="/blog">Blog</Link>
+        {/* <Link href={"https://www.buymeacoffee.com/exxhub"} target="_blank">
           Buy Me A Coffee
-        </Link>
+        </Link> */}
         <ThemeChanger />
       </nav>
 
@@ -34,11 +35,12 @@ function Navigation() {
           menuOpen ? styles.mobileNav : `${styles.mobileNav} ${styles.hidden}`
         }
       >
-        <Link href="/blog">Blog</Link>
         <Link href="/works">Works</Link>
-        <Link href={"https://www.buymeacoffee.com/exxhub"} target="_blank">
+        <Link href="/dev">Dev</Link>
+        <Link href="/blog">Blog</Link>
+        {/* <Link href={"https://www.buymeacoffee.com/exxhub"} target="_blank">
           Buy Me A Coffee
-        </Link>
+        </Link> */}
       </nav>
 
       <section className={styles.themeSwitch}>
