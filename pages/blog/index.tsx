@@ -11,7 +11,7 @@ function BlogsPage({ blogs }: { blogs: Blog[] }) {
         title="Blog | acosta codes"
         description="Collection of blog posts about tech and development"
       />
-      <BlogList blogs={blogs} />;
+      <BlogList blogs={blogs} />
     </>
   );
 }
