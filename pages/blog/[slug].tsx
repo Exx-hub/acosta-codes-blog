@@ -13,13 +13,13 @@ import jsx from "react-syntax-highlighter/dist/cjs/languages/prism/jsx";
 import materialOcean from "react-syntax-highlighter/dist/cjs/styles/prism/material-oceanic";
 
 import styles from "../../styles/BlogPage.module.css";
+import CustomHeadTags from "../../components/CustomHeadTags";
 
 PrismLight.registerLanguage("js", js);
 PrismLight.registerLanguage("ts", ts);
 PrismLight.registerLanguage("jsx", jsx);
 
 function BlogPage({ blog }: { blog: Blog }) {
-  console.log(blog);
   const convertedDate = dateConvert(blog.date);
 
   const customRenders = {
@@ -45,17 +45,22 @@ function BlogPage({ blog }: { blog: Blog }) {
     },
   };
   return (
-    <article className={styles.blogPageContainer}>
-      <section className={styles.blogPageHeader}>
-        <h1 className={styles.title}>{blog.title}</h1>
-        <p className={styles.caption}>{blog.caption}</p>
-        <p className={styles.date}>{convertedDate}</p>
-        <hr />
-      </section>
-      <section className={styles.blogPageContent}>
-        <ReactMarkdown components={customRenders}>{blog.content}</ReactMarkdown>
-      </section>
-    </article>
+    <>
+      <CustomHeadTags title={blog.title} description={blog.title} />
+      <article className={styles.blogPageContainer}>
+        <section className={styles.blogPageHeader}>
+          <h1 className={styles.title}>{blog.title}</h1>
+          <p className={styles.caption}>{blog.caption}</p>
+          <p className={styles.date}>{convertedDate}</p>
+          <hr />
+        </section>
+        <section className={styles.blogPageContent}>
+          <ReactMarkdown components={customRenders}>
+            {blog.content}
+          </ReactMarkdown>
+        </section>
+      </article>
+    </>
   );
 }
 
