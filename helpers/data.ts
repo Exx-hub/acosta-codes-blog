@@ -55,7 +55,7 @@ export const collaborations = [
   {
     image: "/projectImages/lop.png",
     title: "Hoy Lop Personal Blog",
-    live: "https://hoy-lop.vercel.app/",
+    live: "https://www.hoylop.life/",
     srcCode: "https://github.com/Exx-hub/hoy-lop-blog-2022",
     id: 2,
   },
