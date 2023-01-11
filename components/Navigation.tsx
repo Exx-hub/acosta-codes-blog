@@ -24,9 +24,6 @@ function Navigation() {
         <Link href="/works">Works</Link>
         <Link href="/dev">Dev</Link>
         <Link href="/blog">Blog</Link>
-        {/* <Link href={"https://www.buymeacoffee.com/exxhub"} target="_blank">
-          Buy Me A Coffee
-        </Link> */}
         <ThemeChanger />
       </nav>
 
@@ -39,9 +36,6 @@ function Navigation() {
         <Link href="/works">Works</Link>
         <Link href="/dev">Dev</Link>
         <Link href="/blog">Blog</Link>
-        {/* <Link href={"https://www.buymeacoffee.com/exxhub"} target="_blank">
-          Buy Me A Coffee
-        </Link> */}
       </nav>
 
       <section className={styles.themeSwitch}>
