@@ -35,10 +35,10 @@ function About() {
       </section>
       <section className={styles.btnSection}>
         <Link href="/works" className={styles.btn}>
-          Portfolio <FaChevronRight />
+          <span>Portfolio</span> <FaChevronRight />
         </Link>
         <Link href="/blog" className={styles.btn}>
-          Blog <FaChevronRight />
+          <span>Blog</span> <FaChevronRight />
         </Link>
       </section>
     </section>

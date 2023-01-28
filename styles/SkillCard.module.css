@@ -1,7 +1,7 @@
 .skillCard {
   display: flex;
   align-items: center;
-  /* gap: 1rem; */
+  margin: 1.25rem 0.5rem;
 }
 
 .icon {

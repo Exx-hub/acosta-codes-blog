@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 4rem; */
   margin-bottom: 2rem;
   margin-top: 3rem;
 }
@@ -60,8 +59,6 @@
 .skillCardsSection {
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: 1rem;
-  row-gap: 2.5rem;
 }
 
 .btnSection {
@@ -69,12 +66,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 2rem; */
 }
 .btn {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   flex-direction: row;
   padding: 0.5rem;
   background-color: #e0642f;
@@ -84,6 +79,10 @@
   font-weight: bold;
   font-size: 0.9rem;
   margin: 0 1rem;
+}
+
+.btn span {
+  margin-right: 0.5rem;
 }
 
 [data-theme="light"] .btn {

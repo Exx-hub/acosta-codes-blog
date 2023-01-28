@@ -3,7 +3,6 @@
   grid-template-columns: 1fr;
   margin: 0 auto;
   margin-bottom: 5rem;
-  /* gap: 2rem; */
   max-width: 800px;
   justify-items: center;
 }
