@@ -46,6 +46,9 @@
   border: 1px solid lightgray;
   z-index: 1000;
   min-width: 110px;
+
+  opacity: 1;
+  transition: all 200ms ease-in;
 }
 
 .mobileNav a {
@@ -57,7 +60,7 @@
 }
 
 .hidden {
-  display: none;
+  opacity: 0;
 }
 
 .menuToggle {
