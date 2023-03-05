@@ -2,7 +2,6 @@ import Socials from "./Socials";
 import { FaChevronCircleDown } from "react-icons/fa";
 
 import styles from "../styles/Landing.module.css";
-import Link from "next/link";
 
 function Landing() {
   return (
@@ -17,9 +16,9 @@ function Landing() {
         <Socials isFooter={false} />
       </section>
 
-      <Link href={"#about"} className={styles.downIcon}>
+      <a href={"#about"} className={styles.downIcon}>
         <FaChevronCircleDown />
-      </Link>
+      </a>
     </section>
   );
 }
