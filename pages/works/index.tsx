@@ -35,7 +35,8 @@ function Works() {
           </section>
           <hr />
           {/* <h4>React Native</h4>
-        <section className={styles.worksGrid}></section> */}
+          <section className={styles.worksGrid}></section>
+          <hr /> */}
         </section>
       </section>
     </>
