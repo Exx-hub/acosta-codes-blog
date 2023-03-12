@@ -1,6 +1,7 @@
 .devContainer {
   height: auto;
   padding: 2rem;
+  animation: fadeIn ease 1s;
 }
 .devHeader {
   margin-top: 0rem;
@@ -126,5 +127,32 @@
 
   .techGrid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

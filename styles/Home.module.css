@@ -1,5 +1,6 @@
 .homeContainer {
   height: auto;
+  animation: fadeIn ease 1s;
 }
 
 [data-theme="dark"] .homeContainer {
@@ -8,4 +9,31 @@
 
 [data-theme="light"] .homeContainer {
   background-color: #fff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

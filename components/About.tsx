@@ -12,13 +12,7 @@ function About() {
         <h3>
           acosta.<span>codes</span>
         </h3>
-        <Image
-          className={styles.img}
-          src={"/images/me4.jpg"}
-          width={93}
-          height={92}
-          alt=""
-        />
+        <Image className={styles.img} src={"/images/me4.jpg"} width={93} height={92} alt="" />
       </section>
       <h3 className={styles.title}>
         What I <span>Do</span>
@@ -35,7 +29,7 @@ function About() {
       </section>
       <section className={styles.btnSection}>
         <Link href="/works" className={styles.btn}>
-          <span>Portfolio</span> <FaChevronRight />
+          <span>Works</span> <FaChevronRight />
         </Link>
         <Link href="/blog" className={styles.btn}>
           <span>Blog</span> <FaChevronRight />

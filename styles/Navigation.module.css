@@ -125,6 +125,10 @@
   .nav a:hover {
     color: #e0642f;
   }
+
+  .active {
+    color: #e0642f !important;
+  }
 }
 
 @media screen and (min-width: 1024px) {

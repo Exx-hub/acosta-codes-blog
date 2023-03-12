@@ -3,6 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0.5rem 1rem;
+  animation: fadeIn ease 1s;
 }
 
 [data-theme="dark"] .blogPageContainer {
@@ -89,5 +90,32 @@
   .blogPageContent p > img {
     width: 100%;
     max-height: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
