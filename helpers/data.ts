@@ -184,6 +184,14 @@ export const languages = [
     title: "Material-Ui",
     image: "/langImages/matui.png",
   },
+  {
+    title: "GraphQL",
+    image: "/langImages/graphql.png",
+  },
+  {
+    title: "Prisma",
+    image: "/langImages/p.png",
+  },
 ];
 
 export const tools = [
