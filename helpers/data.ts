@@ -36,9 +36,9 @@ export const skills = [
 export const collaborations = [
   {
     image: "/projectImages/cmd.png",
-    title: "CMD Pioneer Construction",
-    live: "https://cmdcorpph.com/",
-    srcCode: "https://github.com/Exx-hub/cmdpioneerph",
+    title: "DMA Premier Construction",
+    live: "https://www.dmaconstructioncorp.com/",
+    srcCode: "https://github.com/Exx-hub/dmapremier2023",
     id: 1,
   },
   {
