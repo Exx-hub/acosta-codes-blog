@@ -5,7 +5,7 @@
 
 .projectCard:hover {
   transform: scale(1.05);
-  transition: transform 200ms ease-out;
+  transition: transform 200ms ease-in-out;
 }
 
 .projectButtons {

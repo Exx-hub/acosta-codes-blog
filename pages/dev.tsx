@@ -15,10 +15,7 @@ function DevBackground() {
       />
       <section className={styles.devContainer}>
         <section className={styles.devHeader}>
-          <PageHeader
-            title="Dev Background"
-            subtitle="My journey into coding and tech I use."
-          />
+          <PageHeader title="Dev Background" subtitle="My journey into coding and tech I use." />
         </section>
         <section className={styles.devContentGrid}>
           <section className={styles.gridSection}>
@@ -40,14 +37,11 @@ function DevBackground() {
             <h4>Experience / Affiliations</h4>
             <section className={styles.experienceSection}>
               <div className={styles.ctaDiv}>
-                <Link
-                  href="https://www.linkedin.com/in/alvin-acosta/"
-                  target="_blank"
-                >
+                <Link href="https://www.linkedin.com/in/alvin-acosta/" target="_blank">
                   <FaLinkedinIn className={styles.cta} />
                   LinkedIn
                 </Link>
-                <Link href="/alvin-acosta-2022.pdf" target="_blank" download>
+                <Link href="/alvin-acosta-june2023.pdf" target="_blank" download>
                   <FaFileDownload className={styles.cta} />
                   Resume
                 </Link>
