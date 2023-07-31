@@ -29,10 +29,11 @@ export function createBlog(file) {
 export function getAllBlogs() {
   const files = getFiles();
 
-  const blogs = files.map((file) => {
-    return createBlog(file);
-  });
-  // .sort((a, b) => (a.date > b.date ? -1 : 1));
+  const blogs = files
+    .map((file) => {
+      return createBlog(file);
+    })
+    .sort((a, b) => (a.date > b.date ? -1 : 1));
 
   return blogs;
 }
