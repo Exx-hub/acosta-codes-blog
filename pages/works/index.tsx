@@ -2,7 +2,7 @@ import React from "react";
 import CustomHeadTags from "../../components/CustomHeadTags";
 import PageHeader from "../../components/PageHeader";
 import ProjectCard from "../../components/ProjectCard";
-import { collaborations, topPicks } from "../../helpers/data";
+import { collaborations, mobileProjects, topPicks } from "../../helpers/data";
 import styles from "../../styles/Works.module.css";
 
 function Works() {
@@ -34,9 +34,13 @@ function Works() {
             ))}
           </section>
           <hr />
-          {/* <h4>React Native</h4>
-          <section className={styles.worksGrid}></section>
-          <hr /> */}
+          <h4>React Native Picks</h4>
+          <section className={styles.worksGrid}>
+            {mobileProjects.map((pick) => (
+              <ProjectCard key={pick.id} proj={pick} isMobile />
+            ))}
+          </section>
+          <hr />
         </section>
       </section>
     </>
