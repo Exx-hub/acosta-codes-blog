@@ -163,6 +163,10 @@ export const languages = [
     image: "/langImages/next.png",
   },
   {
+    title: "React Native",
+    image: "/langImages/reactnativescreens.jpg",
+  },
+  {
     title: "NodeJs",
     image: "/langImages/node.png",
   },
@@ -173,10 +177,6 @@ export const languages = [
   {
     title: "ExpressJs",
     image: "/langImages/express.png",
-  },
-  {
-    title: "React Native",
-    image: "/langImages/rn.png",
   },
   {
     title: "Redux",
@@ -202,10 +202,6 @@ export const languages = [
     title: "GraphQL",
     image: "/langImages/graphql.png",
   },
-  {
-    title: "Prisma",
-    image: "/langImages/p.png",
-  },
 ];
 
 export const tools = [
@@ -226,8 +222,24 @@ export const tools = [
     image: "/toolsImages/jest.png",
   },
   {
-    title: "Dev Tools",
+    title: "Chrome Dev Tools",
     image: "/toolsImages/devtools.png",
+  },
+  {
+    title: "Git Bash",
+    image: "/toolsImages/bash.png",
+  },
+  {
+    title: "React Dev Tools",
+    image: "/toolsImages/reactdevtools.png",
+  },
+  {
+    title: "chatGPT",
+    image: "/toolsImages/chatgpt.jpg",
+  },
+  {
+    title: "Expo",
+    image: "/toolsImages/expo.jpg",
   },
   {
     title: "Figma",
@@ -237,13 +249,12 @@ export const tools = [
     title: "Canva",
     image: "/toolsImages/canva.png",
   },
-
-  {
-    title: "Git Bash",
-    image: "/toolsImages/bash.png",
-  },
   {
     title: "Postman",
     image: "/toolsImages/post.png",
+  },
+  {
+    title: "Prisma",
+    image: "/langImages/p.png",
   },
 ];
