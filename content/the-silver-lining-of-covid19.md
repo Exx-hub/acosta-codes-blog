@@ -1,8 +1,8 @@
 ---
 title: The Silver Lining of Covid19
-date: "2023-06-31"
-image: "silverlining.jpg"
-caption: "From Netflix and chill to Full-stack Web Developer: My Journey of Career Shift During the Pandemic."
+date: "2023-07-31"
+image: "silver-lining.jpg"
+caption: "From Netflix and Chill to Full-Stack Web Developer: How I Seized the Pandemic Opportunity to Transform my Career. #NoStack to #FullStack"
 id: 6
 ---
 
