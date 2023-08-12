@@ -25,6 +25,10 @@
   margin-left: 3px;
 }
 
+.projectButtonsSpan:hover {
+  color: #e0642f;
+}
+
 [data-theme="dark"] .projectCard > h4,
 [data-theme="dark"] .projectIcon {
   color: white;
