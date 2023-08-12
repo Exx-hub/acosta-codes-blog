@@ -20,7 +20,7 @@ function Works() {
           />
         </section>
         <section className={styles.worksGridContainer}>
-          <h4>Collaborations</h4>
+          <h4>Freelance Work</h4>
           <section className={styles.worksGrid}>
             {collaborations.map((collab) => (
               <ProjectCard key={collab.id} proj={collab} />
