@@ -49,11 +49,18 @@ export const collaborations = [
     id: 13,
   },
   {
+    image: "/projectImages/slowliving.png",
+    title: "Slow Living With Dave",
+    live: "https://slow-living-w-dave2023.vercel.app/",
+    srcCode: "https://github.com/Exx-hub/slow-living-w-dave2023",
+    id: 14,
+  },
+  {
     image: "/projectImages/zia-rsvp.png",
     title: "Zia Turns 3 RSVP",
     live: "https://zia-turns-three.vercel.app/",
     srcCode: "https://github.com/Exx-hub/zia-turns-three",
-    id: 14,
+    id: 15,
   },
 ];
 
@@ -150,21 +157,21 @@ export const mobileProjects = [
     title: "Stronk Fitness App",
     live: "",
     srcCode: "https://github.com/Exx-hub/rn-stronk-fitness2023",
-    id: 15,
+    id: 16,
   },
   {
     image: "/projectImages/rnweather.png",
     title: "Handy Weather",
     live: "",
     srcCode: "https://github.com/Exx-hub/rn-weather-app2023",
-    id: 16,
+    id: 17,
   },
   {
     image: "/projectImages/spotlessph.png",
     title: "Spotless PH",
     live: "",
     srcCode: "https://github.com/Exx-hub/rn-spotlessPH-2023",
-    id: 17,
+    id: 18,
   },
 ];
 
