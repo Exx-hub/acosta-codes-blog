@@ -62,6 +62,13 @@ export const collaborations = [
     srcCode: "https://github.com/Exx-hub/zia-turns-three",
     id: 15,
   },
+  {
+    image: "/projectImages/jagiapp.png",
+    title: "Couple Bucketlist App",
+    live: "https://jagiapp420.vercel.app/",
+    srcCode: "https://github.com/Exx-hub/jagiapp420",
+    id: 16,
+  },
 ];
 
 export const topPicks = [
@@ -157,21 +164,21 @@ export const mobileProjects = [
     title: "Stronk Fitness App",
     live: "",
     srcCode: "https://github.com/Exx-hub/rn-stronk-fitness2023",
-    id: 16,
+    id: 17,
   },
   {
     image: "/projectImages/rnweather.png",
     title: "Handy Weather",
     live: "",
     srcCode: "https://github.com/Exx-hub/rn-weather-app2023",
-    id: 17,
+    id: 18,
   },
   {
     image: "/projectImages/spotlessph.png",
     title: "Spotless PH",
     live: "",
     srcCode: "https://github.com/Exx-hub/rn-spotlessPH-2023",
-    id: 18,
+    id: 19,
   },
 ];
 
@@ -293,6 +300,14 @@ export const tools = [
   },
   {
     title: "Prisma",
-    image: "/langImages/p.png",
+    image: "/toolsImages/p.png",
+  },
+  {
+    title: "React Hook Form",
+    image: "/toolsImages/rhf.png",
+  },
+  {
+    title: "Zustand",
+    image: "/toolsImages/zustand.jpg",
   },
 ];
