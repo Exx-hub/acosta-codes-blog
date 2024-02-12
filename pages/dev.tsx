@@ -41,7 +41,7 @@ function DevBackground() {
                   <FaLinkedinIn className={styles.cta} />
                   LinkedIn
                 </Link>
-                <Link href="/alvin-acosta-june2023.pdf" target="_blank" download>
+                <Link href="/resume-alvin-acosta-feb2024.pdf" target="_blank" download>
                   <FaFileDownload className={styles.cta} />
                   Resume
                 </Link>
